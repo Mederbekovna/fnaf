@@ -1,0 +1,45 @@
+header {
+    background-image: url("https://movies-b26f.kxcdn.com/wp-content/uploads/2022/04/five-nights-at-freddys-anniversary-770x470.jpeg");
+    height: 400px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    border: 1px solid darkred;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+.menu-item:hover {
+    background-color: darkred;
+    color: black;
+}
+
+main img {
+    height: 200px;
+}
+
+.center-img {
+    display: flex;
+    justify-content: center;
+}
+
+main h2{
+    text-align: center;
+    border: 3px solid black;
+}
